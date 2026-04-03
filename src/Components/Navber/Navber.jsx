@@ -8,27 +8,30 @@ function Navber() {
         <h2 className='text-4xl font-bold bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent '> DigiTools</h2>
       </div>
       <div className="navbar-center hidden md:flex">
-        <ul className="menu menu-horizontal gap-10 px-1 text-lg">
-          <li>
-            <a>Product</a>
+        <ul className="menu menu-horizontal cursor-pointer text-purple-500 flex gap-10 px-1 text-lg">
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">Home</a>
           </li>
-          <li>
-            <a>Features</a>
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">About</a>
           </li>
-          <li>
-            <a>Testimonial</a>
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">Pricing</a>
           </li>
-          <li>
-            <a>Pricing</a>
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">Features</a>
           </li>
-          <li>
-            <a>FAQs</a>
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">Products</a>
+          </li>
+          <li className='  hover:text-purple-800 hover:transition-colors p-2 rounded full'>
+            <a href="#">FAQs</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end gap-5">
-        <img src={cartImg}alt=""  /> 
-        <a href="">login</a>
+        <img className='' src={cartImg} alt="w-10 h-10" />
+        <a className='text-2xl' href="">login</a>
         <a className="btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-xl text-white">Get Started</a>
       </div>
     </div>

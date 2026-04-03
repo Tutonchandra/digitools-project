@@ -1,7 +1,9 @@
+
 [
   {
     "id": 1,
-    "name": "AI Resume Builder",
+    "title": "AI Resume Builder",
+    "image":"https://i.postimg.cc/rsf1nzSk/design-tool.png",
     "description": "Create professional resumes with AI assistance and modern templates.",
     "price": 0,
     "period": "one-time",
@@ -17,7 +19,8 @@
   },
   {
     "id": 2,
-    "name": "Portfolio Generator",
+    "title": "Portfolio Generator",
+    "image":"https://i.postimg.cc/tJB3S7FM/operation.png",
     "description": "Build stunning portfolio websites using AI in minutes.",
     "price": 8,
     "period": "monthly",
@@ -33,7 +36,8 @@
   },
   {
     "id": 3,
-    "name": "AI Code Assistant",
+    "title": "AI Code Assistant",
+    "image":"https://i.postimg.cc/90Ld8zyv/portfolio.png",
     "description": "Write and debug code faster with intelligent suggestions.",
     "price": 12,
     "period": "monthly",
@@ -49,7 +53,8 @@
   },
   {
     "id": 4,
-    "name": "Graphic Design AI",
+    "title": "Graphic Design AI",
+    "image":"https://i.postimg.cc/GtXF79v6/shopping-cart.png",
     "description": "Design social media graphics and banners easily.",
     "price": 0,
     "period": "one-time",
@@ -65,7 +70,8 @@
   },
   {
     "id": 5,
-    "name": "AI Video Creator",
+    "title": "AI Video Creator",
+    "image":"https://i.postimg.cc/FzTyW1j5/social-media.png",
     "description": "Generate high-quality videos from text scripts.",
     "price": 19,
     "period": "monthly",
@@ -81,7 +87,8 @@
   },
   {
     "id": 6,
-    "name": "SEO Content Writer",
+    "title": "SEO Content Writer",
+    "image":"https://i.postimg.cc/mkmYXh7v/writingpen.png",
     "description": "Create SEO-friendly blog and marketing content.",
     "price": 15,
     "period": "monthly",
@@ -97,7 +104,8 @@
   },
   {
     "id": 7,
-    "name": "Email Marketing AI",
+    "title": "Email Marketing AI",
+    "image":"https://i.postimg.cc/90Ld8zyv/portfolio.png",
     "description": "Automate email campaigns with smart AI tools.",
     "price": 25,
     "period": "yearly",
@@ -113,7 +121,8 @@
   },
   {
     "id": 8,
-    "name": "AI Chatbot Builder",
+    "title": "AI Chatbot Builder",
+    "image":"https://i.postimg.cc/FzTyW1j5/social-media.png",
     "description": "Create smart chatbots for websites and apps.",
     "price": 20,
     "period": "monthly",

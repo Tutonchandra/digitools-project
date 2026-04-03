@@ -32,16 +32,16 @@ const Banner = () => {
                             <span className="group-hover:translate-x-1 transition">→</span>
                         </button>
                         <button className="bg-linear-to-r from-[#4f39f6]  to-[#9514fa] transition-all bg-clip-text text-transparent border-3 border-purple-500 px-8 py-4 rounded-3xl font-extrablod text-lg flex items-center gap-3">
-                        <span className="group-hover:translate-x-1 transition lg:font-extrabold"><img src={playIcon} className="lg:font-extrabold" alt="" /></span>
+                            <span className="group-hover:translate-x-1 transition lg:font-extrabold"><img src={playIcon} className="lg:font-extrabold group-hover:translate-x-1 transition " alt="" /></span>
                             Watch Video
                         </button>
 
                     </div>
 
-                    
+
                 </div>
 
-                {/* Right Image */}
+
                 <div className="relative flex justify-center lg:justify-end">
                     <div className="relative">
                         <img

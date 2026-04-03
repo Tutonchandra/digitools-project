@@ -1,16 +1,27 @@
-
+import { useState } from "react";
 import Navber from "./Components/Navber/Navber"
 
 import Footer from "./Components/Footer/Footer";
 import Banner from "./Components/Banner/Banner";
 import Models from "./Components/Models/Models";
 import Cart from "./Components/Models/Cart";
-import { useState } from "react";
+import Count from "./Components/Banner/Count";
+import GetsectionCart from "./Components/Banner/GetsectionCart";
+import Pricing from "./Components/Banner/Pricing";
+import Workflow from "./Components/Workflow";
+
 
 const getModels = async () => {
-  const res = await fetch("/models.json")
+  const res = await fetch("/demo.json")
   return (res.json())
 }
+
+const getPricing = async () => {
+  const res = await fetch("/pricing.json");
+  return res.json();
+};
+
+const pricingPromise = getPricing();
 
 const modelPromise = getModels()
 
@@ -23,9 +34,10 @@ function App() {
     <>
       <Navber />
       <Banner />
-      <div className='text-center space-y-5 mb-10'>
-        <h2 className=' text-2xl md:text-4xl lg:text-7xl  font-semibold'>Premium Digital Tools</h2>
-        <p>Choose from our curated collection of premium digital products designed
+      <Count />
+      <div className='text-center space-y-5 mt-20 mb-20'>
+        <h2 className=' text-xl md:text-2xl lg:text-5xl  font-semibold'>Premium Digital Tools</h2>
+        <p className=" text-lg mx-auto text-zinc-600  md:w-80 lg:w-4/12">Choose from our curated collection of premium digital products designed
           to boost your productivity and creativity.</p>
       </div>
       <div className='tabs tabs-box justify-center bg-transparent gap-4'>
@@ -47,8 +59,14 @@ function App() {
 
         />
       </div>
+
       {activeTab === "Model" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
       {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts} />}
+      <GetsectionCart />
+      <Pricing pricingPromise={pricingPromise} />
+      <Workflow/>
+
+
       <Footer />
 
     </>

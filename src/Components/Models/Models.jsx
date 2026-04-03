@@ -22,11 +22,3 @@ const Models = ({ modelPromise, carts, setCarts }) => {
 }
 
 export default Models;
-{/* <div className='  flex justify-center align-middle item-center container mx-auto pt-10 pb-10 space-x-10 gap-2  '>
-                <button className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] mt-2 px-4 py-2 rounded-md font-semibold text-md flex items-center gap-3   text-white">
-                    Products
-                </button>
-                <button className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] mt-2 px-4 py-2 rounded-md font-semibold text-md flex items-center gap-3   text-white">
-                    Cart
-                </button>
-            </div> */}
