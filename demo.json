@@ -1,0 +1,139 @@
+
+[
+  {
+    "id": 1,
+    "title": "AI Resume Builder",
+    "image":"https://i.postimg.cc/rsf1nzSk/design-tool.png",
+    "description": "Create professional resumes with AI assistance and modern templates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Instant download"
+    ],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Generator",
+    "image":"https://i.postimg.cc/tJB3S7FM/operation.png",
+    "description": "Build stunning portfolio websites using AI in minutes.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Custom domain",
+      "Responsive design",
+      "SEO optimized",
+      "Hosting included"
+    ],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 3,
+    "title": "AI Code Assistant",
+    "image":"https://i.postimg.cc/90Ld8zyv/portfolio.png",
+    "description": "Write and debug code faster with intelligent suggestions.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Auto code completion",
+      "Bug detection",
+      "Multi-language support",
+      "IDE integration"
+    ],
+    "icon": "FaCode"
+  },
+  {
+    "id": 4,
+    "title": "Graphic Design AI",
+    "image":"https://i.postimg.cc/GtXF79v6/shopping-cart.png",
+    "description": "Design social media graphics and banners easily.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ templates",
+      "Drag and drop editor",
+      "HD export",
+      "Brand kit"
+    ],
+    "icon": "FaPaintBrush"
+  },
+  {
+    "id": 5,
+    "title": "AI Video Creator",
+    "image":"https://i.postimg.cc/FzTyW1j5/social-media.png",
+    "description": "Generate high-quality videos from text scripts.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Text to video",
+      "Voice over",
+      "Stock footage",
+      "4K export"
+    ],
+    "icon": "FaVideo"
+  },
+  {
+    "id": 6,
+    "title": "SEO Content Writer",
+    "image":"https://i.postimg.cc/mkmYXh7v/writingpen.png",
+    "description": "Create SEO-friendly blog and marketing content.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research",
+      "Auto blog writing",
+      "SEO scoring",
+      "Plagiarism check"
+    ],
+    "icon": "FaSearch"
+  },
+  {
+    "id": 7,
+    "title": "Email Marketing AI",
+    "image":"https://i.postimg.cc/90Ld8zyv/portfolio.png",
+    "description": "Automate email campaigns with smart AI tools.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Email templates",
+      "Automation",
+      "Analytics dashboard",
+      "Lead management"
+    ],
+    "icon": "FaEnvelope"
+  },
+  {
+    "id": 8,
+    "title": "AI Chatbot Builder",
+    "image":"https://i.postimg.cc/FzTyW1j5/social-media.png",
+    "description": "Create smart chatbots for websites and apps.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Website integration",
+      "24/7 support bot",
+      "Multi-language",
+      "Custom responses"
+    ],
+    "icon": "FaRobot"
+  }
+]
