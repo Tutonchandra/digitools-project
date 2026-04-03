@@ -27,7 +27,7 @@ const ModelCart = ({ model, carts, setCarts }) => {
 
     return (
         <div>
-            <div className=' container mx-auto p-10 bg-white shadow-lg rounded-xl border overflow-hidden border-zinc-100'>
+            <div className=' container mx-auto p-10 bg-white shadow-xl rounded-xl border overflow-hidden border-zinc-100'>
                 <div className=' flex  p-4 h-20 justify-between items-center '>
                     <img src={model.image} className='w-20 h-20 bg-zinc-100 inline p-4 rounded-full object-contain ' alt="" />
 

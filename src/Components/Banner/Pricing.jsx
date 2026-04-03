@@ -20,7 +20,7 @@ const Pricing = ({ pricingPromise }) => {
                     <div key={plan.id}
                         className={`p-8 rounded-2xl shadow-md bg-green-300
                             ${plan.popular
-                                ? "bg-linear-to-r text-whtie from-[#4f39f6] to-[#9514fa] text-white" : "bg-zinc-100 "
+                                ? "bg-linear-to-r text-whtie from-[#4f39f6] to-[#9514fa] text-white" : "bg-zinc-50 "
                             }`}>
 
                         {

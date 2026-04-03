@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
 
-    
+
 
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
 
@@ -19,35 +19,37 @@ const Cart = ({ carts, setCarts }) => {
 
     return (
 
-        <div className=' container mx-auto p-10 mb-5 bg-zinc-50 rounded-lg'>
+        <div className=' container mx-auto p-10 mb-5  rounded-lg'>
             <h1 className="text-2xl font-semibold">Your Cart</h1>
 
             {
-                carts.length === 0 ? <p className=" bg-gray-200 justify-center text-center items-center m-10 p-20 rounded-2xl text-3xl text-black">Cart is Empty</p> : <>
+                carts.length === 0 ? <p className=" bg-gray-100 justify-center text-center items-center m-10 p-20 rounded-2xl text-2xl text-zinc-500">Cart is Empty</p> : <>
 
                     <div className=" space-y-5 mt-5 rounded-xl  ">
                         {carts.map(item =>
-                            <div className=" space-y-2.5 bg-white justify-between items-center p-8 rounded-lg" key={item.id}>
+                            <div className=" space-y-2.5 bg-white shadow-md justify-between items-center p-8 rounded-lg" key={item.id}>
 
-                                <div className="flex justify-between gap-10 items-center ">
-                                    <div className="flex space-x-2 gap-5 items-center">
-                                        <img className="h-10 w-10 object-contain" src={item.image} />
-                                        <h2 className="text-xl font-bold">{item.title}</h2>
+                                <div className="flex justify-between gap-10 items-center content-center ">
+                                    <div className=" space-x-2 gap-5 items-center">
+                                        <div className="flex gap-5 space-y-2">
+                                            <img className="h-10 w-10 object-contain" src={item.image} />
+                                            <h2 className="text-xl font-bold">{item.title}</h2>
+                                        </div>
+                                        <h2 className="text-md font-bold">${item.price}/month</h2>
                                     </div>
 
-                                    <button onClick={() =>handleRemove(item)} >remove</button>
+                                    <button className=" text-xl cursor-pointer text-red-400 capitalize hover:" onClick={() => handleRemove(item)} >remove</button>
                                 </div>
-                                <h2 className="text-md font-bold">${item.price}/month</h2>
 
 
                             </div>)
                         }
                     </div>
-                    <div className="flex justify-between bg-black text-white p-5 mt-5 rounded-lg text-2xl font-bold">
+                    <div className="flex justify-between text-zinc-600 p-5 mt-5 rounded-lg text-2xl font-bold">
                         <div>Total</div>
                         <div>${totalPrice}</div>
                     </div>
-                    <button onClick={handlePayment} className="btn w-full text-3xl rounded-lg bg-red-600 text-white mt-5  px-10 p-8 justify-center">Proceed To Checkout</button>
+                    <button onClick={handlePayment} className="btn w-full text-2xl rounded-lg bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white mt-5  px-10 p-8 justify-center">Proceed To Checkout</button>
                 </>
             }
 

@@ -40,11 +40,12 @@ function App() {
         <p className=" text-lg mx-auto text-zinc-600  md:w-80 lg:w-4/12">Choose from our curated collection of premium digital products designed
           to boost your productivity and creativity.</p>
       </div>
-      <div className='tabs tabs-box justify-center bg-transparent gap-4'>
+      <div className='tabs tabs-box bg-transparent justify-center  gap-4'>
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-60 text-2xl"
+          className={`tab rounded-full w-60 text-2xl
+            ${activeTab === "Model" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white" : ""}`}
           aria-label="Products"
           onClick={() => setActiveTab("Model")}
           defaultChecked
@@ -53,7 +54,8 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 text-2xl "
+          className={`tab rounded-full w-60 text-2xl
+            ${activeTab === "Cart" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white" : ""}`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("Cart")}
 
@@ -64,7 +66,7 @@ function App() {
       {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts} />}
       <GetsectionCart />
       <Pricing pricingPromise={pricingPromise} />
-      <Workflow/>
+      <Workflow />
 
 
       <Footer />
