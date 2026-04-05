@@ -12,12 +12,12 @@ import Workflow from "./Components/Workflow";
 
 
 const getModels = async () => {
-  const res = await fetch("/demo.json")
+  const res = await fetch("/digitools-project/demo.json")
   return (res.json())
 }
 
 const getPricing = async () => {
-  const res = await fetch("/pricing.json");
+  const res = await fetch("/digitools-project/pricing.json");
   return res.json();
 };
 
