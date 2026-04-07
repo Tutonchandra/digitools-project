@@ -11,7 +11,7 @@ The project is designed to demonstrate React component structure, state manageme
 
 🚀 Live Website:
 
-🔗 https://digitools-project.netlify.app/
+🔗 https://tutonchandra.github.io/digitools-project/
 
 🛠️ Technology Used:
 
